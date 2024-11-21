@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    background-color: #232f3e;
+    color: white;
+    padding: 10px 20px;
+  }
+ 
+  .TEXTBAR{
+    width: 400px;
+    display: flex;
+    margin-right: 250px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header h1 {
+    display: inline;
+  }
+  
+  nav div {
+    float: right;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .product-grid {
+    gap: 20px;
+    display: inline-flex
+;
+    margin-right: 10px;
+  }
+  
+  .product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    height: auto;
+  }
+  
+  .product img {
+    max-width: 100%;
+  }
+  button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  
+  button:hover {
+    background-color: #ddb347;
+  }
+  .product01-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .product01 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    height: auto;
+  }
+  
+  
+  .product01 img {
+    max-width: 100%;
+    height: 240px;
+  }
+  .product02-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .product02 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    height: auto;
+  }
+  
+  
+  .product02 img {
+    max-width: 100%;
+    height: 240px;
+  }
+  .product03-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .product03 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    height: auto;
+  }
+  
+  
+  .product03 img {
+    max-width: 100%;
+    height: 240px;
+  }
+  .product04-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .product04 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    height: auto;
+  }
+  
+  
+  .product04 img {
+    max-width: 100%;
+    height: 240px;
+  }
+  .product05-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .product05 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    height: auto;
+  }
+  
+  
+  .product05 img {
+    max-width: 100%;
+    height: 240px;
+  }
